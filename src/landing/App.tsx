@@ -6,6 +6,7 @@ import { useQuartzPortal } from '../lib/quartz/portal';
 import { OpeningPreview } from './OpeningPreview';
 import { Questions } from './Questions';
 import { AgentConnect } from './AgentConnect';
+import { AgentBoards } from './AgentBoards';
 import { HeroDither } from './HeroDither';
 import { resolveHeroDitherVariant } from './hero-dither';
 import { GameNavigation, type OptionsFocus } from './GameNavigation';
@@ -137,7 +138,7 @@ export function App() {
           </div>
 
           <AgentConnect />
-
+          <AgentBoards />
           <Questions />
           <footer className="site-footer">
             <div className="footer-top page-width">
